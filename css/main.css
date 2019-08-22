@@ -1586,6 +1586,16 @@ pre .javascript .function {
   align-self: center;
   height: 30px;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
 .sidebar {
   background: #222;
   bottom: 0;
@@ -1669,7 +1679,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0dffd0;
+  background: #83504d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2373,19 +2383,6 @@ ul.breadcrumb li+li:last-child {
   background: #f9f9f9;
   border-bottom-color: #fff;
 }
-.menu-item-active a::after,
-.menu .menu-item a:hover::after,
-.menu .menu-item span.exturl:hover::after {
-  background-color: #bbb;
-  border-radius: 50%;
-  content: ' ';
-  height: 6px;
-  margin-top: -3px;
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  width: 6px;
-}
 .menu .menu-item {
   display: block;
   margin: 0;
@@ -2456,9 +2453,6 @@ ul.breadcrumb li+li:last-child {
 .sub-menu .menu-item-active a:hover {
   background: #fff !important;
   border-bottom-color: #fc6423;
-}
-.sub-menu .menu-item-active a::after {
-  content: initial;
 }
 .use-motion .sidebar .motion-element {
   opacity: 1;
@@ -2742,4 +2736,36 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("http://pvte3kzqu.bkt.clouddn.com/20160721165928_c4Kim.png");
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+/*.header {
+background:url(图片链接) none repeat scroll !important;
+}
+//底栏背景色
+.footer {
+background:rgba(238,238,238,0.7) none repeat scroll !important;
+}
+//侧栏图片及内部文字颜色修改
+.sidebar {
+background:url(http://pvte3kzqu.bkt.clouddn.com/20160721165928_c4Kim.png);
+background-size: cover;
+background-position:center;
+background-repeat:no-repeat;
+p,span,a {color: #000;}
+}
+*/
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
