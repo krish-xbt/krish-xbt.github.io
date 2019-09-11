@@ -1679,7 +1679,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5ed257;
+  background: #1fffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2738,7 +2738,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background: url("http://pvte3kzqu.bkt.clouddn.com/20160721165928_c4Kim.png");
+  background-image: url("/images/backGround.jpg");
   background-attachment: fixed;
   background-position: 50% 50%;
 }
