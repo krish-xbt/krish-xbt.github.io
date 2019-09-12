@@ -1679,7 +1679,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff9e70;
+  background: #41ffe0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2738,9 +2738,15 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background-image: url("/images/backGround.jpg");
+  background-image: url("/images/backGround3.jpg");
   background-attachment: fixed;
   background-position: 50% 50%;
+  repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 /*.header {
 background:url(图片链接) none repeat scroll !important;
